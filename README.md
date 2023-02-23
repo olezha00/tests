@@ -29,6 +29,7 @@ Download - https://www.anaconda.com/
 
 Installation guide - https://docs.anaconda.com/anaconda/install/
 
+
 Steps for data upload
 
 After data preparation and Anaconda installation you should prepare an environment for code run.
