@@ -22,6 +22,8 @@ Preparation for data upload
 
 Data needs to be prepared before upload. Tabular data must be placed in one folder and spatial – in another one. Absolute path to both folders must be saved in db.cfg in [data_config] section. Please, find the example below.
  
+ ![plot](./data_config.png)
+ 
 The second requirement is Anaconda must be installed.
 Please find download and installation guide links below. 
 
