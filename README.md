@@ -60,14 +60,14 @@ To deactivate your virtual environment use $ conda deactivate <name_of_env>
 
     Be sure that chosen user has admin rights!
 
-7. Runcreate_db_and_tables.py
+7. Run create_db_and_tables.py
 
     $ python3 create_db_and_tables.py
 
 This script creates DB and tables with required parameters. If it runs successfully, you will see similar output
   Else – similar to the next output
 
-8. Runupload_data.py
+8. Run upload_data.py
 
     $ python3 upload_data.py
 
