@@ -4,7 +4,8 @@ This user guide contains information about how to create database and tables and
 Please, read it attentively before making any attempt of database and data management.
 Structure of DBManagement folder:
 - create_db_and_tables.py – Python script used for creation of database, tables, extensions etc. and setting up system configurations.
-#Important!
+
+Important!\n
 This script requires PostgreSQL user with admin rights!
 
 - upload_data.py - Python script used for data upload to clay_content and spatial_data tables.
