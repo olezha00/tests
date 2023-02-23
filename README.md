@@ -61,6 +61,8 @@ To deactivate your virtual environment use $ conda deactivate <name_of_env>
 6. Fill in needed parameters in db.cfg for [landviser_clay_db] section according to your PostgreSQL server parameters
 
     Be sure that chosen user has admin rights!
+    
+    ![img2](https://github.com/olezha00/tests/blob/master/db_config.png)
 
 7. Run create_db_and_tables.py
 
