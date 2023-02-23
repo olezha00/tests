@@ -22,7 +22,7 @@ Preparation for data upload
 
 Data needs to be prepared before upload. Tabular data must be placed in one folder and spatial – in another one. Absolute path to both folders must be saved in db.cfg in [data_config] section. Please, find the example below.
  
-![img1](https://github.com/olezha00/tests/blob/master/data_cofig.png)
+![img1](./img/data_cofig.png)
  
 The second requirement is Anaconda must be installed.
 Please find download and installation guide links below. 
@@ -62,7 +62,7 @@ To deactivate your virtual environment use $ conda deactivate <name_of_env>
 
     Be sure that chosen user has admin rights!
     
-![img2](https://github.com/olezha00/tests/blob/master/clay_db_config.png)
+![img2](./img/clay_db_config.png)
 
 7. Run create_db_and_tables.py
 
@@ -70,11 +70,11 @@ To deactivate your virtual environment use $ conda deactivate <name_of_env>
 
   This script creates DB and tables with required parameters. If it runs successfully, you will see similar output
   
-![img3](https://github.com/olezha00/tests/blob/master/create_db_v.png)
+![img3](./img/create_db_v.png)
 
   Else – similar to the next output
 
-![img4](https://github.com/olezha00/tests/blob/master/create_db_x.png)
+![img4](./img/create_db_x.png)
 
 8. Run upload_data.py
 
@@ -84,11 +84,11 @@ This script uploads data to the created DB.
 CLI will ask you to input version of data to upload. You can put it in in integer format or you can leave it blank and press Enter. In that case version of data will be generated automatically as max(version) + 1. But if you choose the version, the script will update priviously uploaded data with chosen version and will set its is_relevant = false
 If success
 
-![img5](https://github.com/olezha00/tests/blob/master/upld_data_v.png)
+![img5](./img/upld_data_v.png)
 
 Else
 
-![img6](https://github.com/olezha00/tests/blob/master/upld_data_x.png)
+![img6](./img/upld_data_x.png)
 
 9. If you need to generate a clay_api_key, run following
 
